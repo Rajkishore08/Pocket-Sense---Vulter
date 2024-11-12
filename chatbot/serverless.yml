@@ -1,0 +1,14 @@
+service: chatbot-inference
+
+provider:
+  name: aws
+  runtime: nodejs14.x
+  region: us-east-1
+
+functions:
+  chatbotInference:
+    handler: chatbot.handler
+    events:
+      - http:
+          path: chatbot/query
+          method: post
