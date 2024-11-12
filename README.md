@@ -1,7 +1,3 @@
-Here’s a comprehensive README for your **Pocket Sense** project, designed to provide clear instructions for reviewers and collaborators.
-
----
-
 # Pocket Sense
 
 **Pocket Sense** is a financial management tool designed to empower users with financial literacy, debt management, budgeting tools, and personalized investment suggestions. This full-stack application combines a React frontend, a Node.js backend, a Laravel-based chatbot, and serverless inference for machine learning capabilities. Pocket Sense is deployed on Vultr, utilizing cloud-based resources to ensure scalability and high performance.
